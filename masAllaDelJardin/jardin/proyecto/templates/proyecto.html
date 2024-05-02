@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página</title>
@@ -12,7 +13,7 @@
         .container {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: right;
             flex-wrap: wrap;
         }
         .box {
@@ -25,6 +26,18 @@
             display: block;
             /* Color de fondo del cuadro de texto */
             background-color: #47221E; 
+        }
+        .boxSinopsis {
+            width: 75%;
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 20px solid #E7C17F; /* 1 */
+            border-radius: 80px;/* 5 */
+            /* Ajuste para mostrar en bloque */
+            display: block;
+            /* Color de fondo del cuadro de texto */
+            background-color: #47221E; 
+            
         }
         .box img {
             max-width: 100%;
@@ -129,10 +142,24 @@
             similar 
         </p>
     </div>
+    
     <!-- Segundo cuadro de texto -->
-    <div class="box">
-        <h2>*SERIE 2*</h2>
-        <p>Texto del cuadro 2</p>
+
+    <img src="/Imagenes/Poster.png" alt="Poster Serie" width="280" height="420">
+  
+    <div class="boxSinopsis">
+        <h2 style="font-family: 'Fuentemasalla', sans-serif; color:#E7C17F; text-align: center; font-size: 50px;"></style>S     I     N     O     P     S     I     S
+        </h2>
+        <p style="color: white; text-align: justify; font-size: 20px;">
+            
+            Más allá del jardín es una miniserie animada que te invita a un viaje lleno de misterio y aventura. Esta joya de la animación,  transmitida en Cartoon Network, te sumerge en un bosque extraño y mágico, conocido como "Lo Desconocido".
+
+            La serie sigue a dos hermanos, Wirt y Greg, quienes se encuentran perdidos en este bosque misterioso. Con la ayuda de un sombrío leñador y una pájaro azul parlante llamada Beatrice, deben encontrar su camino a casa. Pero no todo es lo que parece en este bosque de oscuras connotaciones simbólicas.
+            
+            Es una obra maestra de la animación, con un estilo único que combina el cuento infantil con los grabados vintage. Cada episodio te sumerge en un mundo de pesadilla, a medio camino entre la fantasía y la realidad, lleno de personajes excéntricos y amenazadores.
+            
+            Con su narrativa rompedora y anárquica, sus personajes inolvidables y su extraordinaria ambientación, esta serie te mantendrá pegado a la pantalla desde el primer hasta el último episodio.</p>
+
     </div>
     <!-- Tercer cuadro de texto -->
     <div class="box">
