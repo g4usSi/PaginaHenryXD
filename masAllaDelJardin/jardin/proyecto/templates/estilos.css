@@ -1,0 +1,8 @@
+.Titulo {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Posiciona la imagen en la parte superior */
+    left: 0; /* Posiciona la imagen en la izquierda */
+  }
+  .Titulo {
+    opacity: 0.5; /* Opacidad del 50% */
+  }
