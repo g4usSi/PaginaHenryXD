@@ -6,3 +6,13 @@
   .Titulo {
     opacity: 0.9; /* Opacidad del 50% */
   }
+  .box2 {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 80px;
+    border-image: url("imagenes/2.png") 20px round; /* 2 */
+    border-width: 0; /* Ocultar el borde sólido original */
+    border-radius: 80px;
+    display: block;
+    background-color: #47221E;
+  }
