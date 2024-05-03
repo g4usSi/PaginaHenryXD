@@ -1,28 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <link rel="stylesheet" href="estilo.css">
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TITULO</title>
+    <title>Mi Página</title>
+    <style>
+        body {
+            background-color: #C09D79; 
+        }
+        /*INICIO CSS RECOMENDACIONES*/
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: right;
+            flex-wrap: wrap;
+        }
+        .box {
+            width: 100%;
+            margin-bottom: 40px;
+            padding: 80px;
+            border: 20px solid #E7C17F; /* 1 */
+            border-radius: 80px;/* 5 */
+            /* Ajuste para mostrar en bloque */
+            display: block;
+            /* Color de fondo del cuadro de texto */
+            background-color: #47221E; 
+        }
+        .boxSinopsis {
+            width: 75%;
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 20px solid #E7C17F; /* 1 */
+            border-radius: 80px;/* 5 */
+            /* Ajuste para mostrar en bloque */
+            display: block;
+            /* Color de fondo del cuadro de texto */
+            background-color: #47221E; 
+            
+        }
+        .box img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        } 
+        /* FIN CSS RECOMENDACIONES  */
+    </style>
+<style>
+    /* INICIO CSS CIRCULOS */
+    .circle {
+            width: 500px; 
+            height: 500px; 
+            border-radius: 50%;
+            background-color: #47221E;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            margin: 20px auto; 
+            position: relative;
+            text-align: center;
+            border: 25px solid #E7C17F; 
+        }
+
+    .circle img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .circle .text {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: #fff;
+    }
+    /* FIN CSS CIRCULOS */
+</style>
+
 </head>
-
-<header>
-    <h1>ESTO ES UN Header</h1>
-</header>
-
-
 <body>
-    <!-- PRIMER APARTADO DE LA PAGINA -->
-    <H1>MAS ALLA DEL JARDIN </H1> 
-    <!-- EJEMPLO DE COMO SE VE UN DIV -->
-    <div>HISTORIA</div>
-    <!-- SEGUNDO APARTADO DE LA PAGINA -->
-    <h1> SEGUNDO</H1>
-    <!-- TERCER APARTADO DE LA PAGINA -->
-    <h6>TERCER</h6>
-    <!-- CUARTO APARTADO DE LA PAGINA -->
-    <H1>CUARTO APARTDO</H1>
-    <h2>PERSONAJES</h2>
+
+<!------------------------------------------------------------------------------ APARTADO SINOPSIS ----------------------------------------------------------------------------->    
+<h1>SINOPSIS</h1>
+<img src="/Imagenes/Poster.png" alt="Poster Serie" width="280" height="420">
+  
+<div class="boxSinopsis">
+    <h2 style="font-family: 'Fuentemasalla', sans-serif; color:#E7C17F; text-align: center; font-size: 50px;"></style>S     I     N     O     P     S     I     S
+    </h2>
+    <p style="color: white; text-align: justify; font-size: 20px;">
+        
+        Más allá del jardín es una miniserie animada que te invita a un viaje lleno de misterio y aventura. Esta joya de la animación,  transmitida en Cartoon Network, te sumerge en un bosque extraño y mágico, conocido como "Lo Desconocido".
+
+        La serie sigue a dos hermanos, Wirt y Greg, quienes se encuentran perdidos en este bosque misterioso. Con la ayuda de un sombrío leñador y una pájaro azul parlante llamada Beatrice, deben encontrar su camino a casa. Pero no todo es lo que parece en este bosque de oscuras connotaciones simbólicas.
+        
+        Es una obra maestra de la animación, con un estilo único que combina el cuento infantil con los grabados vintage. Cada episodio te sumerge en un mundo de pesadilla, a medio camino entre la fantasía y la realidad, lleno de personajes excéntricos y amenazadores.
+        
+        Con su narrativa rompedora y anárquica, sus personajes inolvidables y su extraordinaria ambientación, esta serie te mantendrá pegado a la pantalla desde el primer hasta el último episodio.</p>
+
+</div>
+
+
+<!------------------------------------------------------------------------ CUADRO DE TEXTO PARA HISTORIA ----------------------------------------------------------------------->
+<h1>HISTORIA</h1>
+<div class="box">
+    <h1>*HISTORIA*</h1>
+    <p>Narra la historia de dos hermanos, Wirt y Greg, que se encuentran perdidos en un bosque extraño y misterioso conocido como Lo Desconocido. Con la ayuda de un sombrío leñador y un pájaro azul llamada Beatriz, Wirt y Greg deben viajar a través de este extraño lugar con la esperanza de regresar a casa.
+             
+    </p>
+    <p>La historia comienza cuando Wirt, un adolescente taciturno, poco seguro de sí mismo, con mucha preocupación sobre el futuro y su hermano menor, Greg, un niño ingenuo y alegre, se pierden en el bosque durante una noche de Halloween, cayendo en un rio y perdiendo la conciencia. Al despertar, se encuentran en “Lo Desconocido”, un lugar peculiar donde el tiempo parece no tener sentido y habitan criaturas fantásticas. Wirt y Greg se ven obligados a emprender una travesía para encontrar el camino de regreso a casa y a medida que lo intentan, se encuentran con una serie de personajes extraños y enfrentan situaciones inusuales, desafíos y peligros. Uno de los primeros encuentros de los hermanos es con “el leñador”, un hombre que durante toda la serie, trata de ayudar a los niños y les advierte sobre peligros. También se encuentran con un ave parlante llamada Beatríz, quién decide ayudarlos a regresar a su casa tras salvarla de estar atorada en unos arbustos. Juntos, los tres emprenden un viaje lleno de peligros y descubrimientos sorprendentes. A lo largo de su viaje, se enfrentan a criaturas extrañas, como el Lobo, un ser misterioso que acecha en el bosque, y “la Bestia”, una entidad oscura que  habita entre las ramas y la penumbra. En su camino, se enfrentan a diversos desafíos y peligros, mientras descubren los secretos del bosque y aprenden valiosas lecciones sobre la hermandad, el coraje, la amistad y la importancia de enfrentar los propios temores.</p>
+    <p>La serie está llena de momentos emotivos, humor surrealista y una estética visual única que combina elementos de cuentos de hadas clásicos con una narrativa moderna y compleja. "Más allá del Jardín" ha sido aclamada por la crítica y el público por su originalidad, su estilo artístico y su conmovedora historia sobre el crecimiento personal y la búsqueda del hogar.</p>
+</div>
+
+<!------------------------------------------------------------------------------- APARTADO PARA PERSONAJES --------------------------------------------------------------------->
+<H1>PERSONAJES</H1>
+    <h1>PERSONAJES</h1>
     <h3>Wirt</h3>
     <p>Wirt es el personaje principal de la serie. Es un adolescente caracterizado principalmente por su sombrero rojo y capa azul, su personalidad resalta por ser un tanto pesimista e infantil en ocasiones. También es el hermano mayor de Greg</p>
     <h3>Greg</h3>
@@ -33,13 +135,73 @@
     <p>El Leñador es un personaje misterioso que los hermanos encuentran en el bosque. A primera vista, parece amable y servicial, ofreciendo su ayuda y refugio en su cabaña. Sin embargo, pronto se revela que el Leñador puede tener motivos ocultos y no todo es lo que parece con él.</p>
     <h3>La Bestia</h3>
     <p>La Bestia es una presencia oscura y amenazante que acecha en las sombras del bosque. A medida que los hermanos avanzan en su viaje, se encuentran cada vez más confrontados por la presencia de la Bestia, quien parece tener sus propios planes para ellos. Su verdadera naturaleza y propósito son un misterio aterrador que los hermanos deben enfrentar.</p>
-</section>
-    <!-- QUINTO APARTADO DE LA PAGINA -->
-    <H1>QUINTO APARTDO</H1>
-    <footer>
-        <p>ESTO ES UN Footer</p>
-    </footer>
-    
 
+  
+  
+  
+<!------------------------------------------------------------------------ APARTADO PARA AUTORES Y DATOS CURIOSOS ------------------------------------------------------------->
+<H1>AUTORES Y DATOS CURISOS</H1>
+
+<div class="circle">
+    <img src="imagen1.jpg" alt="Imagen 1">
+    <div class="text"><ul>
+        <li>Patrick McHale</li>
+        <li>Pendleton Ward</li>
+        <li>Amalia Levari</li>
+        <li>Tom Herpich</li>
+        <li>Natasha Allegri</li>
+    </ul></div>
+</div>
+<div class="circle">
+    <img src="imagen2.jpg" alt="Imagen 2">
+    <div class="text">                
+        <li>Existe un comic el cual se centra en 
+        algún punto antes de el encuentro con adeleid.</li>
+        <li>El diseño de la Bestia esta inspirado en la "tripofobia"</li>
+        <li>En los primeros bocetos Wirt se llamaría Walter.</li>
+    </div>
+</div>
+<!-- FIN AUTORES Y DATOS -->
+
+<!----------------------------------------------------------------- APARTADO PARA SERIES RECOMENDADAS  ----------------------------------------------------------------------->
+<H1>SERIES RECOMENDADAS : </H1>
+<div class="container">
+
+    <!-- Primer cuadro de texto -->
+    <div class="box">
+        <h1>*SERIE 1 *</h1>
+        <p>se recomienda ver esta serie justo despues de terminar mas alla del jardin
+            puesto que es una serie que se parece bastante y puede aportar una experiencia
+            similar 
+        </p>
+    </div>
+
+    <!-- Tercer cuadro de texto -->
+    <div class="box">
+        <h2>Cuadro 3</h2>
+        <p>Texto del cuadro 3</p>
+    </div>
+    <!-- Cuadro de texto para el título y descripción con la imagen -->
+    <div class="box">
+        <h2>Título y Descripción</h2>
+        <img src="tu-imagen.jpg" alt="Imagen">
+        <p>Descripción de la imagen   sdfesfasdf    sdfesfasdfFES FCSEFSDFESFSEFS</p>
+    </div>
+</div>
 </body>
+<footer>
+    <div class="footer">
+        <div class= "footerContent">
+            <label id="lbl1">WIKI DE MAS ALLA DEL JARDIN </label>
+            <label id="lbl1">SINOPSIS, PERSONAJES, DATOS CURIOSOS Y MÁS </label>
+            <label id="lbl1">CONTACTANOS POR NUESTRAS REDES:</label>
+            <label id="lbl1">*facebook* *Instagram* *X* *youtube*</label>
+            <label id="lbl1"></label>
+            <label id="lbl1"></label>
+            <label id="lbl1"></label>
+            <div id="ojo"></div>
+            <div id="ojo2"></div>
+        </div>
+    </div>
+</footer>
 </html>
