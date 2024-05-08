@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css"> 
  
     <meta charset="UTF-8">
-    <title>Mi Página</title>
+    <title>WIKI MÁS ALLÁ DEL JARDINJ</title>
     <style>
         body {
             background-color: #C09D79; 
@@ -18,48 +18,80 @@
             background-position: center; /* Centrar la imagen */
             background-repeat: repeat; /* Repetir la imagen */
             /* Estilos adicionales para el contenido */
-            color: #ffffff; /* Color del texto */
             padding: 20px; /* Espaciado interior */
-            font-size: 50px; /* Tamaño de fuente para párrafos */
+            font-size: 60px; /* Tamaño de fuente para párrafos */
+            color:#000; /* Color del texto */
+            text-align: center;
         }
         p {
-            font-size: 30px; /* Tamaño de fuente para párrafos */
+            font-size: 50px; /* Tamaño de fuente para párrafos */
+            color:#E7C17F; /* Color del texto */
+            text-align: justify;
         }
+/*  INICIO PARTE DEL HR    */
+
+.custom-divider {
+  width: 100%; /* Span the full width of the container */
+  height: 2px; /* Set the divider thickness */
+  background-color: #333; /* Set the default divider color */
+  margin: 20px 0; /* Add spacing above and below the divider */
+}
+
+/* Styles for different color variations */
+.custom-divider--red {
+  background-color: #000;
+}
+
+/* Styles for different thickness variations */
+.custom-divider--thin {
+  height: 2px;
+}
+
+.custom-divider--thick {
+  height: 7px;
+}
+/*FIN PARTE DEL HR*/
+
+
         /*INICIO CSS RECOMENDACIONES*/
         .container {
             display: flex;
             justify-content: space-between;
-            align-items: right;
+            align-items: center;
             flex-wrap: wrap;
         }
         .box {
-            width: 100%;
+            width: 90%;
+            margin-left: 50px; /* Add 40px margin to the left */
             margin-bottom: 40px;
-            padding: 80px;
+            padding: 50px;
             border: 20px solid #E7C17F; /* 1 */
-            border-radius: 80px;/* 5 */
+            border-radius: 180px;/* 5 */
             /* Ajuste para mostrar en bloque */
             display: block;
             /* Color de fondo del cuadro de texto */
             background-color: #47221E; 
         }
-        .boxSinopsis {
-            width: 75%;
-            margin-bottom: 40px;
-            padding: 20px;
-            border: 20px solid #E7C17F; /* 1 */
-            border-radius: 80px;/* 5 */
-            /* Ajuste para mostrar en bloque */
-            display: block;
-            /* Color de fondo del cuadro de texto */
-            background-color: #47221E; 
-            
-        }
-        .box img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px;
-        } 
+        .synopsis-container {
+  display: flex; /* Use flexbox for container */
+  flex-wrap: nowrap; /* Prevent elements from wrapping */
+}
+
+.boxSinopsis {
+  flex: 1; /* Allow synopsis box to expand */
+  padding: 20px; /* Add padding around synopsis content */
+  background-color: #47221E; /* Set background color for contrast */
+  color: #E7C17F; /* Set text color to white */
+  border: 20px solid #E7C17F; /* 1 */
+  border-radius: 80px; /* 5 */
+  margin-right: 20px; /* Add margin to the right of the box */
+}
+
+.box img {
+  width: 280px; /* Set image width */
+  height: auto; /* Maintain image aspect ratio */
+  margin-bottom: 10px; /* Add margin below the image */
+}
         /* FIN CSS RECOMENDACIONES  */
     </style>
 <style>
@@ -95,8 +127,8 @@
         bottom: 10px;
         left: 0;
         right: 0;
-        text-align: center;
-        color: #fff;
+        text-align: justify;
+        color: #E7C17F;
     }
     /* FIN CSS CIRCULOS */
 </style>
@@ -105,12 +137,12 @@
 <body>
 
 <!------------------------------------------------------------------------------ APARTADO SINOPSIS ----------------------------------------------------------------------------->    
-
+<div class="custom-divider custom-divider--red custom-divider--thick"></div>
 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26ce1d00-fdcf-4fb2-948c-146aeb216389/de6qc53-a87b6e0d-312b-4da0-80cd-2cc21f245787.jpg/v1/fit/w_828,h_1472,q_70,strp/over_the_garden_wall_by_jabronicus_de6qc53-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDgwMCIsInBhdGgiOiJcL2ZcLzI2Y2UxZDAwLWZkY2YtNGZiMi05NDhjLTE0NmFlYjIxNjM4OVwvZGU2cWM1My1hODdiNmUwZC0zMTJiLTRkYTAtODBjZC0yY2MyMWYyNDU3ODcuanBnIiwid2lkdGgiOiI8PTI3MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.C4blghTepx9aGYF_fYdWGf39mzv02ZrCJoxhl736pJQ" alt="Poster Serie" width="280" height="420">
-  
+<h1> Sinopsis</h1>
 <div class="boxSinopsis">
-    <h1> Sinopsis</h1>
-    <p style="color: white; text-align: justify; ">
+    
+    <p style="color: #E7C17F; text-align: justify; ">
         
         Mas allá del jardín es una miniserie animada que te invita a un viaje lleno de misterio y aventura. Esta joya de la animación,  transmitida en Cartoon Network, te sumerge en un bosque extraño y mágico, conocido como "Lo Desconocido".
 
@@ -124,10 +156,11 @@
 
 
 <!------------------------------------------------------------------------ CUADRO DE TEXTO PARA HISTORIA ----------------------------------------------------------------------->
-<h1>HISTORIA</h1>
+<div class="custom-divider custom-divider--red custom-divider--thick"></div>
+<h1>Historia</h1>
 <div class="container"> 
 <div class="box">
-    <h1>HISTORIA</h1>
+    
     <p>Narra la historia de dos hermanos, Wirt y Greg, que se encuentran perdidos en un bosque extraño y misterioso conocido como Lo Desconocido. Con la ayuda de un sombrío leñador y un pájaro azul llamada Beatriz, Wirt y Greg deben viajar a través de este extraño lugar con la esperanza de regresar a casa.</p>
     <p>La historia comienza cuando Wirt, un adolescente taciturno, poco seguro de sí mismo, con mucha preocupación sobre el futuro y su hermano menor, Greg, un niño ingenuo y alegre, se pierden en el bosque durante una noche de Halloween, cayendo en un rio y perdiendo la conciencia. Al despertar, se encuentran en “Lo Desconocido”, un lugar peculiar donde el tiempo parece no tener sentido y habitan criaturas fantásticas. Wirt y Greg se ven obligados a emprender una travesía para encontrar el camino de regreso a casa y a medida que lo intentan, se encuentran con una serie de personajes extraños y enfrentan situaciones inusuales, desafíos y peligros. Uno de los primeros encuentros de los hermanos es con “el leñador”, un hombre que durante toda la serie, trata de ayudar a los niños y les advierte sobre peligros. También se encuentran con un ave parlante llamada Beatríz, quién decide ayudarlos a regresar a su casa tras salvarla de estar atorada en unos arbustos. Juntos, los tres emprenden un viaje lleno de peligros y descubrimientos sorprendentes. A lo largo de su viaje, se enfrentan a criaturas extrañas, como el Lobo, un ser misterioso que acecha en el bosque, y “la Bestia”, una entidad oscura que  habita entre las ramas y la penumbra. En su camino, se enfrentan a diversos desafíos y peligros, mientras descubren los secretos del bosque y aprenden valiosas lecciones sobre la hermandad, el coraje, la amistad y la importancia de enfrentar los propios temores.</p>
     <p>La serie está llena de momentos emotivos, humor surrealista y una estética visual única que combina elementos de cuentos de hadas clásicos con una narrativa moderna y compleja. "Más allá del Jardín" ha sido aclamada por la crítica y el público por su originalidad, su estilo artístico y su conmovedora historia sobre el crecimiento personal y la búsqueda del hogar.</p>
@@ -135,7 +168,8 @@
 </div>
 
 <!------------------------------------------------------------------------------- APARTADO PARA PERSONAJES --------------------------------------------------------------------->
-    <h1>PERSONAJES</h1>
+<div class="custom-divider custom-divider--red custom-divider--thick"></div>   
+<h1>Personajes</h1>
     <style>
         .character-box {
             display: flex;
@@ -149,11 +183,20 @@
             height: auto; 
             margin-right: 20px; 
         }
+        .recomm {
+    width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
 
         .character-description {
-            flex: 1;
-            color: #fff;
-        }
+  flex: 1;
+  color: #E7C17F;
+  text-align: left; /* Set text align to left */
+}
+
+
     </style>
 </head>
 <body>
@@ -163,13 +206,13 @@
         <img src="https://pm1.aminoapps.com/6155/6a845c0fee1fb91ec1cb9079109f7e5cc96e957f_hq.jpg" alt="Imagen de Wirt" class="character-image">
         <div class="character-description">
             <h3>Wirt</h3>
-            <p>Wirt es el personaje principal de la serie. Es un adolescente caracterizado principalmente por su sombrero rojo y capa azul, su personalidad resalta por ser un tanto pesimista e infantil en ocasiones. También es el hermano mayor de Greg</p>
+            <p>Wirt es el personaje principal de la serie. Es un adolescente caracterizado principalmente por su sombrero rojo y capa azul, su personalidad resalta por ser un tanto pesimista e infantil en ocasiones. Tambien es el hermano mayor de Greg</p>
         </div>
     </div>
 </div>
 <div class="box">
     <div class="character-box">
-        <a href="https://imgbb.com/"><img src="https://i.ibb.co/nfGZzCW/undefined-Imgur.png" alt="undefined-Imgur" border="0"></a>
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/nfGZzCW/undefined-Imgur.png" alt="undefined-Imgur" class="character-image" border="0"></a>
         <div class="character-description">
             <h3>Greg</h3>
             <p>Greg es el hermano menor de Wirt, se caracteriza por ser un niño alegre y lleno de energía y curiosidad que ve la vida como una aventura emocionante junto a la rana que tiene como mascota.</p>
@@ -207,7 +250,8 @@
   
   
 <!------------------------------------------------------------------------ APARTADO PARA AUTORES Y DATOS CURIOSOS ------------------------------------------------------------->
-<H1>AUTORES Y DATOS CURISOS</H1>
+<div class="custom-divider custom-divider--red custom-divider--thick"></div>
+<H1>Autores Y Datos Curiosos</H1>
 
 <div class="circle">
     <img src="imagen1.jpg" alt="Imagen 1">
@@ -231,30 +275,61 @@
 <!-- FIN AUTORES Y DATOS -->
 
 <!----------------------------------------------------------------- APARTADO PARA SERIES RECOMENDADAS  ----------------------------------------------------------------------->
-<H1>SERIES RECOMENDADAS : </H1>
+
+<div class="custom-divider custom-divider--red custom-divider--thick"></div>
+
+
+<H1>Series Recomendadas : </H1>
+<style>
+.Logo-image {
+  /* Existing styles */
+  width: 50%; /* Make the image width span the full container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 800px; /* Set a maximum width to prevent the image from becoming too large */
+  display: block; /* Make the image an inline-block element */
+  margin: 0 auto; /* Center the image horizontally and vertically */
+}
+
+</style>
+
+
+
 <div class="container"> 
-
     <!-- Primer cuadro de texto -->
+    <body>
+        <div class="container"> 
     <div class="box">
-        <h1>*SERIE 1 *</h1>
-        <p>se recomienda ver esta serie justo despues de terminar mas alla del jardin
-            puesto que es una serie que se parece bastante y puede aportar una experiencia
-            similar 
-        </p>
+        <div class="character-box">
+            <a href="https://ibb.co/4P2mrBJ"><img src="https://i.ibb.co/XSD2RmV/365f60957a6543a408a45a25c534bebc.png" alt="365f60957a6543a408a45a25c534bebc"  class="character-image" ></a>
+            <div class="character-description">
+                <a href="https://ibb.co/R2Bsch9"><img src="https://i.ibb.co/6Y1TFvm/PNG-HORA-DE-AVENTURA.png" alt="PNG-HORA-DE-AVENTURA" class="Logo-image"></a>
+                <p>Narra las extravagantes, coloridas y divertidas aventuras de un niño llamado Finn y su amigo canino parlante, Jake que se unen para divertirse en la mística Tierra de Ooo.</p>
+            </div>
+        </div>
     </div>
+    <div class="box">
+        <div class="character-box">
+            <a href="https://ibb.co/ZmWvLqB"><img src="https://i.ibb.co/Dp5mV09/AVATAR-EDITED.png" alt="AVATAR-EDITED" class="character-image"></a>
+            <div class="character-description">
+                <a href="https://ibb.co/TLcTpQX"><img src="https://i.ibb.co/BNLPdhD/Logo-de-Avatar-la-leyenda-de-Aang.png" alt="Logo-de-Avatar-la-leyenda-de-Aang" class="Logo-image"></a>
+                <p>Se centra en un mundo dividido en cuatro naciones, cada una asociada a un elemento natural: agua, tierra, fuego y aire. El Avatar, capaz de dominar los cuatro elementos, emerge como la figura destinada a mantener el equilibrio en el mundo.</p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="character-box">
+        <a href="https://ibb.co/w7nfbzx"><img src="https://i.ibb.co/3vxn8CL/EDITED-FINAL-sdafasdfesfasdfesfafef-dgfsgdfsgsdfgrdg.png" alt="EDITED-FINAL-sdafasdfesfasdfesfafef-dgfsgdfsgsdfgrdg" class="character-image"></a>
+            <div class="character-description">
+                <a href="https://ibb.co/N156DzZ"><img src="https://i.ibb.co/cb0cfdD/png-infinity-train.png" alt="png-infinity-train" class="Logo-image"></a>
+                <p>La serie transcurre en un tren bastante extenso que viaja a través de un árido desierto en un universo paralelo. La misión del tren es recoger personas con problemas que no pueden superar. Los vagones del tren contienen una variedad de mundos extraños y fantásticos.</p>
+            </div>
+        </div>
+    </div>
+ </div>
+ 
 
-    <!-- Tercer cuadro de texto -->
-    <div class="box">
-        <h2>Cuadro 3</h2>
-        <p>Texto del cuadro 3</p>
-    </div>
-    <!-- Cuadro de texto para el título y descripción con la imagen -->
-    <div class="box">
-        <h2>Título y Descripción</h2>
-        <img src="tu-imagen.jpg" alt="Imagen">
-        <p>Descripción de la imagen   sdfesfasdf    sdfesfasdfFES FCSEFSDFESFSEFS</p>
-    </div>
- </div> 
+
+ <div class="custom-divider custom-divider--red custom-divider--thick"></div>
 </body>
 <footer>
     <div class="footer">
