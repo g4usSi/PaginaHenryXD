@@ -1,6 +1,6 @@
 .Titulo {
   position: absolute;
-  top: 0;
+  top: -40px;
   left: 30px;
   padding-top: 45px;
   opacity: 0.9; /* Opacidad del 50% */
@@ -51,7 +51,7 @@ nav {
 
 nav {
   position: absolute; /* Make navigation absolute for positioning */
-  top: 210px; /* Adjust position from top */
+  top: 150px; /* Adjust position from top */
   left: 300px; /* Adjust position from left */
   /* Additional styling for the navigation (colors, font, etc.) */}
 header {
@@ -72,7 +72,7 @@ header {
   }
   
   nav li {
-    font-size: 25px;
+    font-size: 30px;
     margin-right: 20Fpx;
   }
   
