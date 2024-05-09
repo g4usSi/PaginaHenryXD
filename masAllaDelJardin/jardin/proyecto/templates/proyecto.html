@@ -129,27 +129,39 @@
             border: 25px solid #E7C17F; 
         }
 
-    .circle img {
-        max-width: 100%;
-        max-height: 100%;
-        border-radius: 50%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        margin: auto;
+        .circle {
+            width: 400px; 
+            height: 400px; 
+            border-radius: 50%;
+            background-color: #47221E;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            margin: 20px auto; 
+            position: relative;
+            text-align: center;
+            border: 25px solid #E7C17F; 
+
+    }
+    .text {
+        text-align: center; /* Centra el texto dentro del círculo */
+    }
+    .container {
+        display: flex;
+        justify-content: center
     }
 
-    .circle .text {
+   /* .circle .text {
         position: absolute;
         bottom: 10px;
         left: 0;
         right: 0;
-        text-align: justify;
-        color: #E7C17F;
-    }
-    /* FIN CSS CIRCULOS */
+
+        text-align: center;
+        color: #fff;
+    }*/
+    /* FIN CSS SEXTO APARTADO */
+
 </style>
 
 </head>
@@ -218,7 +230,6 @@
   text-align: left; /* Set text align to left */
 }
 
-
     </style>
 </head>
 <body>
@@ -276,23 +287,40 @@
 <section id="4"></section>
 <H1>Autores Y Datos Curiosos</H1>
 
-<div class="circle">
-    <img src="imagen1.jpg" alt="Imagen 1">
-    <div class="text"><ul>
-        <li>Patrick McHale</li>
-        <li>Pendleton Ward</li>
-        <li>Amalia Levari</li>
-        <li>Tom Herpich</li>
-        <li>Natasha Allegri</li>
-    </ul></div>
-</div>
-<div class="circle">
-    <img src="imagen2.jpg" alt="Imagen 2">
-    <div class="text">                
-        <li>Existe un comic el cual se centra en 
-        algún punto antes de el encuentro con adeleid.</li>
-        <li>El diseño de la Bestia esta inspirado en la "tripofobia"</li>
-        <li>En los primeros bocetos Wirt se llamaría Walter.</li>
+
+  
+  <H1>AUTORES Y DATOS CURISOS</H1>
+<div class ="container">
+    <div class="circle">   
+        <div class="text">
+            <ol>
+                <h1>AUTORES</h1>
+                <h3><li>Patrick McHale</li></h3>
+                <h3><li>Pendleton Ward</li></h3>
+                <h3><li>Amalia Levari</li></h3>
+                <h3><li>Tom Herpich</li></h3>
+                <h3><li>Natasha Allegri</li></h3>
+            </ol>
+        </div>
+    </div>
+  
+    <div class="circle">   
+        <div class="text">
+            
+                <img src="https://cn.i.cdn.ti-platform.com/cnlatam/content/831/showpage/mas-alla-del-jardin---cartoon-network/ve/showsquare.png?imwidth=420">
+            
+        </div>
+    </div>
+
+    <div class="circle">
+    
+        <div class="text">    
+            <h1>AUTORES</h1>            
+            <h3><li>Existe un comic el cual se centra en 
+            un punto antes de el encuentro con Adeleid.</li></h3>
+            <h3><li>El diseño de la Bestia esta inspirado en la "tripofobia".</li></h3>
+            <h3><li>En los primeros bocetos Wirt se llamaría Walter.</li></h3>
+        </div>
     </div>
 </div>
 <!-- FIN AUTORES Y DATOS -->
