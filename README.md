@@ -2,7 +2,6 @@
 For the project, a text font based on the *Over the Garden Wall* series was used.
 
 ![imagenfuente](https://i.imgur.com/clKRIcR.png)
-Add the font to the text on the page
 ```css
 @font-face {
     font-family: overthegarden;
@@ -18,3 +17,11 @@ For the website project, several markup, style, and programming languages were u
 - HTML
 - CSS
 - Python
+# Team Members
+- Dominique Contreras
+- Henry Díaz
+- Jordin García
+- Rodrigo Pérez
+- Jimmy Quevedo
+- Benjamín Ruíz
+- Fátima Tzóc
