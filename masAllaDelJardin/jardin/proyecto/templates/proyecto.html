@@ -4,17 +4,19 @@
         <link rel="stylesheet" href="estilosD.css">
         <a href="/">
           <div class="contenedor-imagenes">
-            <img src="2.png"  alt="Imagen de fondo" class="imagen-grande">
+            <img src="2.png"  alt="Imagen de fondo" class="imagen-grande">   
+            <div id=" hip">        
             <nav>
               <ul>
-                <li><a href="#1">Sinopsis</a></li>
-                <li><a href="#2">Historia</a></li>
-                <li><a href="#3">Personajes</a></li>
-                <li><a href="#4">Autores</a></li>
-                <li><a href="#5">Series Recomendadas</a></li>
+                <li><a id="txt1" href="#1">Sinopsis</a></li>
+                <li><a id="txt2" href="#2">Historia</a></li>
+                <li><a id="txt3" href="#3">Personajes</a></li>
+                <li><a id="txt4" href="#4">Autores</a></li>
+                <li><a id="txt5" href="#5">Series Recomendadas</a></li>
                 
               </ul>
             </nav>
+        </div> 
             <img src="https://i.ibb.co/0FLNXxp/Titulo.png" alt="Imagen del Titulo" width="275" height="175" class="Titulo" id="ImagenTitulo">
           </div>
         </a>
@@ -129,27 +131,39 @@
             border: 25px solid #E7C17F; 
         }
 
-    .circle img {
-        max-width: 100%;
-        max-height: 100%;
-        border-radius: 50%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        margin: auto;
+        .circle {
+            width: 400px; 
+            height: 400px; 
+            border-radius: 50%;
+            background-color: #47221E;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            margin: 20px auto; 
+            position: relative;
+            text-align: center;
+            border: 25px solid #E7C17F; 
+
+    }
+    .text {
+        text-align: center; /* Centra el texto dentro del círculo */
+    }
+    .container {
+        display: flex;
+        justify-content: center
     }
 
-    .circle .text {
+   /* .circle .text {
         position: absolute;
         bottom: 10px;
         left: 0;
         right: 0;
-        text-align: justify;
-        color: #E7C17F;
-    }
-    /* FIN CSS CIRCULOS */
+
+        text-align: center;
+        color: #fff;
+    }*/
+    /* FIN CSS SEXTO APARTADO */
+
 </style>
 
 </head>
@@ -218,7 +232,6 @@
   text-align: left; /* Set text align to left */
 }
 
-
     </style>
 </head>
 <body>
@@ -276,23 +289,40 @@
 <section id="4"></section>
 <H1>Autores Y Datos Curiosos</H1>
 
-<div class="circle">
-    <img src="imagen1.jpg" alt="Imagen 1">
-    <div class="text"><ul>
-        <li>Patrick McHale</li>
-        <li>Pendleton Ward</li>
-        <li>Amalia Levari</li>
-        <li>Tom Herpich</li>
-        <li>Natasha Allegri</li>
-    </ul></div>
-</div>
-<div class="circle">
-    <img src="imagen2.jpg" alt="Imagen 2">
-    <div class="text">                
-        <li>Existe un comic el cual se centra en 
-        algún punto antes de el encuentro con adeleid.</li>
-        <li>El diseño de la Bestia esta inspirado en la "tripofobia"</li>
-        <li>En los primeros bocetos Wirt se llamaría Walter.</li>
+
+  
+  <H1>AUTORES Y DATOS CURISOS</H1>
+<div class ="container">
+    <div class="circle">   
+        <div class="text">
+            <ol>
+                <h1>AUTORES</h1>
+                <h3><li>Patrick McHale</li></h3>
+                <h3><li>Pendleton Ward</li></h3>
+                <h3><li>Amalia Levari</li></h3>
+                <h3><li>Tom Herpich</li></h3>
+                <h3><li>Natasha Allegri</li></h3>
+            </ol>
+        </div>
+    </div>
+  
+    <div class="circle">   
+        <div class="text">
+            
+                <img src="https://cn.i.cdn.ti-platform.com/cnlatam/content/831/showpage/mas-alla-del-jardin---cartoon-network/ve/showsquare.png?imwidth=420">
+            
+        </div>
+    </div>
+
+    <div class="circle">
+    
+        <div class="text">    
+            <h1>AUTORES</h1>            
+            <h3><li>Existe un comic el cual se centra en 
+            un punto antes de el encuentro con Adeleid.</li></h3>
+            <h3><li>El diseño de la Bestia esta inspirado en la "tripofobia".</li></h3>
+            <h3><li>En los primeros bocetos Wirt se llamaría Walter.</li></h3>
+        </div>
     </div>
 </div>
 <!-- FIN AUTORES Y DATOS -->
@@ -357,16 +387,30 @@
 <footer>
     <div class="footer">
         <div class= "footerContent">
-            <label id="lbl1">WIKI DE MAS ALLA DEL JARDIN </label>
-            <label id="lbl1">SINOPSIS, PERSONAJES, DATOS CURIOSOS Y MÁS </label>
-            <label id="lbl1">CONTACTANOS POR NUESTRAS REDES:</label>
-            <label id="lbl1">*facebook* *Instagram* *X* *youtube*</label>
-            <label id="lbl1"></label>
-            <label id="lbl1"></label>
-            <label id="lbl1"></label>
+            <label id="text1" class="lbl1">WIKI DE MAS ALLA DEL JARDIN </label>
+            <label id="text2" class="lbl1">SINOPSIS, PERSONAJES, DATOS CURIOSOS Y MÁS </label>
+            <label id="text3" class="lbl1">CONTACTANOS POR NUESTRAS REDES:</label>
+            <a href="https://www.facebook.com/cartoonnetworkla/?brand_redir=84917688371&locale=es_LA">
+                <label id="text4" class="lbl1">*Facebook*</label>
+            </a>
+            <a href="https://www.instagram.com/cartoonnetworkla/?hl=es">
+            <label id="text5" class="lbl1">*Instagram*</label>
+            </a>
+            <a href="https://twitter.com/CartoonLA">
+                <label id="text6" class="lbl1">*X*</label>
+            </a>
+            <a href="https://www.youtube.com/@CartoonLA">
+                <label id="text7" class="lbl1">*YouTube*</label>
+            </a>
+            <a href="https://spa.cartoonnetworkla.com/">
+                <label id="text8" class="lbl1">*Web*</label>
+            </a>
             <div id="ojo"></div>
             <div id="ojo2"></div>
+            <img id="faro" src="https://i.ibb.co/tYHR6g3/Faro.png" alt="Faro">
+            <img id="arbusto" src="https://i.ibb.co/qBTJwLP/Arbusto.png" alt="Arbusto">
         </div>
+        <div id="relleno"></div>
     </div>
 </footer>
 </html>
