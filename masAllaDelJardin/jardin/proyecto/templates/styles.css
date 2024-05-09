@@ -1,0 +1,82 @@
+/* Pantalla completa */
+@media screen and (min-width: 768px) {
+    /* Estilos para pantallas más grandes */
+    .footer {
+      position: absolute;
+      width: 98.5vw;
+      background-color: black;
+      left: 0px;
+    }
+    .footerContent {
+      position: relative;
+      bottom: 0;
+      background-color: black;
+      padding-top: 200px;
+      left: 0px;
+    }
+    #lbl1 {
+      display: block;
+      font-size: 20px;
+      left: 20px;
+      bottom: 20px;
+      color: white;
+    }
+    #ojo{
+      position: absolute;
+      top: 200px;
+      right: 240px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      background-color: white;
+    }
+    #ojo2{
+      position: absolute;
+      top: 200px;
+      right: 170px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      background-color: white;
+    }
+  }
+  
+  /* Vista teléfono */
+  @media screen and (max-width: 767px) {
+    .footer {
+        background-color: black;
+        left: 0px;
+      }
+      .footerContent {
+        position: relative;
+        bottom: 0;
+        width: 95vw;
+        background-color: black;
+        padding-top: 100px;
+        left: 0px;
+      }
+      #lbl1 {
+        display: block;
+        font-size: 10px;
+        left: 0;
+        color: white;
+      } 
+      #ojo{
+        position: absolute;
+        top: 100px;
+        right: 120px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: white;
+      }
+      #ojo2{
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: white;
+      }
+  }
