@@ -1,0 +1,87 @@
+.Titulo {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  padding-top: 45px;
+  opacity: 0.9; /* Opacidad del 50% */
+  z-index: 1; /* Asegura que la imagen se superponga */
+}
+ #imagent { 
+    width: 3000px;
+  }
+  
+  
+ 
+  
+ /* Reset default margins and padding */
+nav {
+  margin: 0;
+  padding: 0;
+  position: relative; /* Make nav positionable */
+}
+
+/* Image container styles */
+.contenedor-imagenes {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation menu styles */
+nav {
+  width: 800px; /* Adjust to match image width */
+  opacity: 1; /* Example background color */
+  color: #000000; /* Example text color */
+  position: absolute; /* Make nav absolute */
+  top: 50%; /* Position nav 50% from the top */
+  left: 0; /* Position nav at the left edge */
+  right: 20px;
+  transform: translateY(-50%); /* Vertically center nav */
+  z-index: 1; /* Place nav above the image */
+  
+}
+
+.contenedor-imagenes {
+  position: relative; /* Make container relative for absolute positioning */
+}
+
+.contenedor-imagenes img:first-child { /* Style the background image */
+  width: 100%; /* Stretch to fit container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+nav {
+  position: absolute; /* Make navigation absolute for positioning */
+  top: 210px; /* Adjust position from top */
+  left: 300px; /* Adjust position from left */
+  /* Additional styling for the navigation (colors, font, etc.) */}
+header {
+  
+    color: #ECC37B; /* white text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    font-size: 25px;
+    margin-right: 20Fpx;
+  }
+  
+  nav a {
+    color: #996C22;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  nav a:hover {
+    color: #996C22;
+  }
