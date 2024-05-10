@@ -45,7 +45,7 @@
             text-align: center;
         }
         p {
-            font-size: 40px; /* Tamaño de fuente para párrafos */
+            font-size: 35px; /* Tamaño de fuente para párrafos */
             color:#E7C17F; /* Color del texto */
             text-align: justify;
         }
@@ -82,8 +82,9 @@
             flex-wrap: wrap;
         }
         .box {
-            width: 90%;
-            margin-left: 50px; /* Add 40px margin to the left */
+            width: absolute;
+            margin-left: absolute; /* Add 40px margin to the left */
+            margin-right: absolute;
             margin-bottom: 40px;
             padding: 50px;
             border: 20px solid #E7C17F; /* 1 */
@@ -118,34 +119,31 @@
 <style>
     /* INICIO CSS CIRCULOS */
     .circle {
-            width: 387px; 
-            height: 387px;  /*ambos tama;o del circulo igual */
-            border-radius: 50%;
-            background-color: #47221E;
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            margin: 10px auto; 
-            position: relative;
-            text-align: center;
-            border: 15px solid #E7C17F; 
-            
-        }
+  width: 370px; /* Adjust as needed for desktop view */
+  height: 370px; /* Adjust as needed for desktop view */
+  border-radius: 50%;
+  background-color: #47221E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  position: relative;
+  text-align: center;
+  border: 15px solid #E7C17F;
+}
 
-        .circle {
-            width: 387px; 
-            height: 387px; 
-            border-radius: 50%;
-            background-color: #47221E;
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            margin: 10px auto; 
-            position: relative;
-            text-align: center;
-            border: 15px solid #E7C17F; 
-           
-    }
+/* Responsive styles for mobile devices */
+@media (max-width: 900px) {
+  .container {
+    flex-wrap: wrap; /* Wrap circles for vertical layout */
+  }
+  .circle {
+    width: calc(100% - 20px); /* Set width based on container and margin */
+    margin: 10px; /* Adjust margin for mobile layout */
+  }
+}
+
+        
     .text {
         text-align: center; /* Centra el texto dentro del círculo */
     }
@@ -242,7 +240,7 @@
         <a href="https://imgbb.com/"><img src="https://i.ibb.co/nfGZzCW/undefined-Imgur.png" alt="undefined-Imgur" class="character-image"border="0"></a>
         <div class="character-description">
             <h3>Greg</h3>
-            <p>Greg es el hermano menor de Wirt, se caracteriza por ser un niño alegre y lleno de energía y curiosidad que ve la vida como una aventura emocionante junto a la rana que tiene como mascota.</p>
+            <p>Greg es el hermano menor de Wirt, se caracteriza por ser un niño alegre y lleno de energia y curiosidad que ve la vida como una aventura emocionante junto a la rana que tiene como mascota.</p>
         </div>
     </div>
 </div>
@@ -251,7 +249,7 @@
         <a href="https://imgbb.com/"><img src="https://i.ibb.co/p1s19hX/undefined-Imgur-1.png" alt="undefined-Imgur-1" border="0" class="character-image"></a>
         <div class="character-description">
             <h3>Beatrice</h3>
-            <p>Beatrice es un pájaro que habla de color azul, que se une a Wirt y a Greg en su viaje por el bosque. Aunque inicialmente actúa con sus propios intereses en mente, eventualmente se convierte en una aliada valiosa para los hermanos, ayudándolos a superar los peligros del bosque y encontrar su camino a casa.</p>
+            <p>Beatrice es un ave que habla y es de color azul, ella se une a Wirt y a Greg en su viaje por el bosque. Aunque inicialmente actua con sus propios intereses en mente, eventualmente se convierte en una aliada valiosa para los hermanos, ayudandolos a superar los peligros del bosque y encontrar su camino a casa.</p>
         </div>
     </div>
 </div>
@@ -260,7 +258,7 @@
         <a href="https://ibb.co/MB265mb"><img src="https://i.ibb.co/g4jVFxG/br-Eja-Xl-d.webp" alt="br-Eja-Xl-d" border="0" class="character-image"></a>
         <div class="character-description">
             <h3>El Leñador</h3>
-            <p>El Leñador es un personaje misterioso que los hermanos encuentran en el bosque. A primera vista, parece amable y servicial, ofreciendo su ayuda y refugio en su cabaña. Sin embargo, pronto se revela que el Leñador puede tener motivos ocultos y no todo es lo que parece con él.</p>
+            <p>El Leñador es un personaje misterioso que los hermanos encuentran en el bosque. A primera vista, parece amable y servicial, ofreciendo su ayuda y refugio en su cabaña. Sin embargo, pronto se revela que el Leñador puede tener motivos ocultos y no todo es lo que parece con el.</p>
         </div>
     </div>
 </div>
@@ -269,7 +267,7 @@
         <a href="https://imgbb.com/"><img src="https://i.ibb.co/wCTTcp1/UOwm04-F-Imgur.png" alt="UOwm04-F-Imgur" border="0"class="character-image"></a>
         <div class="character-description">
             <h3>La Bestia</h3>
-            <p>La Bestia es una presencia oscura y amenazante que acecha en las sombras del bosque. A medida que los hermanos avanzan en su viaje, se encuentran cada vez más confrontados por la presencia de la Bestia, quien parece tener sus propios planes para ellos. Su verdadera naturaleza y propósito son un misterio aterrador que los hermanos deben enfrentar.</p>
+            <p>La Bestia es una presencia oscura y amenazante que acecha en las sombras del bosque. A medida que los hermanos avanzan en su viaje, se encuentran cada vez mas confrontados por la presencia de la Bestia, quien parece tener sus propios planes para ellos. Su verdadera naturaleza y proposito son un misterio aterrador que los hermanos deben enfrentar.</p>
         </div>
     </div>
 </div>
@@ -327,11 +325,7 @@
   display: block; /* Make the image an inline-block element */
   margin: 0 auto; /* Center the image horizontally and vertically */
 }
-
 </style>
-
-
-
 <div class="container"> 
     <!-- Primer cuadro de texto -->
     <body>
@@ -359,36 +353,35 @@
         <a href="https://ibb.co/w7nfbzx"><img src="https://i.ibb.co/3vxn8CL/EDITED-FINAL-sdafasdfesfasdfesfafef-dgfsgdfsgsdfgrdg.png" alt="EDITED-FINAL-sdafasdfesfasdfesfafef-dgfsgdfsgsdfgrdg" class="character-image"></a>
             <div class="character-description">
                 <a href="https://ibb.co/N156DzZ"><img src="https://i.ibb.co/cb0cfdD/png-infinity-train.png" alt="png-infinity-train" class="Logo-image"></a>
-                <p>La serie transcurre en un tren bastante extenso que viaja a través de un árido desierto en un universo paralelo. La misión del tren es recoger personas con problemas que no pueden superar. Los vagones del tren contienen una variedad de mundos extraños y fantásticos.</p>
+                <p> Ñ ñ La serie transcurre en un tren bastante extenso que viaja a lo largo de un desierto en un universo paralelo. el objetivo del tren es recoger personas con problemas que no pueden superar. Los vagones del tren contienen una variedad de mundos desconocidos y fantasticos.</p>
             </div>
         </div>
     </div>
  </div>
- 
-
-
  <div class="custom-divider custom-divider--red custom-divider--thick"></div>
+ 
 </body>
+
 <footer>
     <div class="footer">
         <div class= "footerContent">
-            <label id="text1" class="lbl1">WIKI DE MAS ALLA DEL JARDIN </label>
-            <label id="text2" class="lbl1">SINOPSIS, PERSONAJES, DATOS CURIOSOS Y MÁS </label>
-            <label id="text3" class="lbl1">CONTACTANOS POR NUESTRAS REDES:</label>
+            <label id="text1" class="lbl1">Wiki De Mas Alla Del Jardin </label>
+            <label id="text2" class="lbl1">Sinopsis, Personajes, Datos Curiosos Y Mas </label>
+            <label id="text3" class="lbl1">Contactanos Por Nuestras Redes:</label>
             <a href="https://www.facebook.com/cartoonnetworkla/?brand_redir=84917688371&locale=es_LA">
-                <label id="text4" class="lbl1">*Facebook*</label>
+                <label id="text4" class="lbl1">Facebook</label>
             </a>
             <a href="https://www.instagram.com/cartoonnetworkla/?hl=es">
-            <label id="text5" class="lbl1">*Instagram*</label>
+            <label id="text5" class="lbl1">Instagram</label>
             </a>
             <a href="https://twitter.com/CartoonLA">
-                <label id="text6" class="lbl1">*X*</label>
+                <label id="text6" class="lbl1">X</label>
             </a>
             <a href="https://www.youtube.com/@CartoonLA">
-                <label id="text7" class="lbl1">*YouTube*</label>
+                <label id="text7" class="lbl1">YouTube</label>
             </a>
             <a href="https://spa.cartoonnetworkla.com/">
-                <label id="text8" class="lbl1">*Web*</label>
+                <label id="text8" class="lbl1">Web</label>
             </a>
             <div id="ojo"></div>
             <div id="ojo2"></div>
@@ -399,11 +392,3 @@
     </div>
 </footer>
 </html>
-
-<script>
-
-
-
-
-    
-</script>
