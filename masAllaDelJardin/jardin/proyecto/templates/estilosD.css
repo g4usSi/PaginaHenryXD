@@ -9,9 +9,39 @@
  #imagent { 
     width: 3000px;
   }
-  
-  
- 
+  #hip{
+    position: relative;
+  }
+#txt1{
+  position: absolute;
+  top: -130px;
+  font-size: 35px;
+  left: 100px;
+} 
+#txt2{
+  position: absolute;
+  top: -90px;
+  font-size: 35px;
+  left: 100px;
+}
+#txt3{
+  position: absolute;
+  top: -50px;
+  font-size: 35px;
+  left: 100px;
+}
+#txt4{
+  position: absolute;
+  top: -130px;
+  font-size: 35px;
+  left: 400px;
+}
+#txt5{
+  position: absolute;
+  top: -90px;
+  font-size: 35px;
+  left: 300px;
+}
   
  /* Reset default margins and padding */
 nav {
@@ -85,3 +115,4 @@ header {
   nav a:hover {
     color: #996C22;
   }
+  
