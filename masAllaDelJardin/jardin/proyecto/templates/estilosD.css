@@ -33,7 +33,7 @@ header {
   
   nav a {
     text-decoration: none; /* Eliminar subrayado */
-    color: #333; /* Color del texto */
+    color: #fff; /* Color del texto */
     font-weight: bold; /* Texto en negrita */
   }
   
@@ -170,12 +170,12 @@ header {
   }
   
   nav a {
-    color: #000000;
+    color: #129edf;
     text-decoration: none;
     font-size: 30px;
   }
   
   nav a:hover {
-    color: #996C22;
+    color: #0011fb;
   }
   
