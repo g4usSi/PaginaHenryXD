@@ -1,3 +1,66 @@
+header {
+  width: 100%;
+  display: flex; /* Flexbox para distribución horizontal */
+  justify-content: space-between; /* Distribuir elementos a los extremos */
+  align-items: center; /* Alinear elementos verticalmente */
+  padding: 20px; /* Añadir espacio alrededor del contenido */
+  .contenedor-imagenes {
+    width: 100%;
+    height: 200px; /* Ajustar la altura según deseado */
+    overflow: hidden; /* Ocultar el contenido que exceda la altura */
+  }
+  
+  .imagen-grande {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantener la proporción de la imagen, cubriendo el contenedor */
+  }
+  
+  /* Menú de navegación */
+  nav {
+    display: flex; /* Flexbox para distribución horizontal */
+  }
+  
+  nav ul {
+    list-style: none; /* Eliminar viñetas */
+    margin: 0; /* Eliminar margen predeterminado */
+    padding: 0; /* Eliminar relleno predeterminado */
+  }
+  
+  nav li {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+  }
+  
+  nav a {
+    text-decoration: none; /* Eliminar subrayado */
+    color: #fff; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Imagen del título */
+  #ImagenTitulo {
+    width: 20%; /* Ajustar el ancho según deseado */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-left: 20px; /* Espacio a la izquierda de la imagen */
+  }
+  
+  /* Media Queries para pantallas pequeñas (por ejemplo, teléfonos móviles) */
+  @media (max-width: 768px) {
+    #ImagenTitulo {
+      display: none; /* Ocultar la imagen del título en pantallas pequeñas */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Disponer los elementos del menú en vertical */
+    }
+  
+    nav li {
+      margin-bottom: 10px; /* Espacio entre elementos del menú */
+    }
+  }
+}
+
+
 .Titulo {
   position: absolute;
   top: -40px;
@@ -16,31 +79,31 @@
   position: absolute;
   top: -130px;
   font-size: 35px;
-  left: 100px;
+  left: 150px;
 } 
 #txt2{
   position: absolute;
-  top: -90px;
+  top: -10px;
   font-size: 35px;
-  left: 100px;
+  left: 150px;
 }
 #txt3{
   position: absolute;
-  top: -50px;
+  top: -70px;
   font-size: 35px;
-  left: 100px;
+  left: 150px;
 }
 #txt4{
   position: absolute;
   top: -130px;
   font-size: 35px;
-  left: 400px;
+  left: 450px;
 }
 #txt5{
   position: absolute;
-  top: -90px;
+  top: -75px;
   font-size: 35px;
-  left: 300px;
+  left: 450px;
 }
   
  /* Reset default margins and padding */
@@ -107,12 +170,12 @@ header {
   }
   
   nav a {
-    color: #996C22;
+    color: #129edf;
     text-decoration: none;
     font-size: 30px;
   }
   
   nav a:hover {
-    color: #996C22;
+    color: #0011fb;
   }
   
