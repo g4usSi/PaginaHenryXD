@@ -1,6 +1,7 @@
 import os
 
-from django.core.wsgi import get_wsgi_application
+from masAllaDelJardin.settings import *  # Reemplaza con la ruta a tu archivo settings.py
+from jardin import application  # 
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jardin.settings')
 
