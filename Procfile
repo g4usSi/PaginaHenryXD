@@ -1,1 +1,1 @@
-web: gunicorn jardin.wsgi:application --bind 0.0.0.0:7337
+web: gunicorn jardin.wsgi:application 
