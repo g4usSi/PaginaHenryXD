@@ -1,1 +1,1 @@
-web: gunicorn masAllaDelJardin.wsgi
+web: gunicorn jardin.wsgi:application --bind 0.0.0.0:7337
